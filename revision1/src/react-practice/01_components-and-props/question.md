@@ -35,6 +35,8 @@ const user = {
   following: 300
 };
 
+---
+
 ### 3. Additional Features (Optional)
 
 #### a. Add an `isOnline` Prop to Indicate if the User is Online or Offline
@@ -51,5 +53,4 @@ const user = {
 
 
 
----
 
