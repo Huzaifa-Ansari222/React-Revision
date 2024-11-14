@@ -1,11 +1,19 @@
-import React from 'react'
+// import React from 'react'
+import Post from './Post';
+import './postFeed.css';
+import PostUploder from './PostUploder';
 
 const PostFeed = () => {
-  return (
-    <div>
-      feed me more
-    </div>
-  )
+return (
+    <>
+        <PostUploder/>
+
+        <section className="feed">
+            <Post/>
+        </section>
+        
+    </>
+)
 }
 
 export default PostFeed

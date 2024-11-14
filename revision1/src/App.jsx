@@ -1,4 +1,5 @@
 import ProfileCard from './react-practice/01_components-and-props/ProfileCard'
+import PostFeed from './react-practice/02_state/PostFeed'
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <ProfileCard/>
+      <PostFeed/>
     </>
   )
 }
