@@ -1,0 +1,35 @@
+.profile-container{
+    background: rgba(240, 239, 255, 0.906);
+}
+.profile-data{
+    display: flex;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.profile img{
+    width: 100px;
+    border-radius: 50%;
+}
+.profile-data{
+    border-bottom: 1px solid black;
+}
+.about-section{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.user-bold{
+    font-weight: 600;
+}
+.user-stats{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
