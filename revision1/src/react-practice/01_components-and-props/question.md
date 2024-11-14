@@ -44,12 +44,17 @@ Inside `ProfileCard`, the following elements should be displayed:
 Below is an example of the user data object that can be passed to the `ProfileCard` component:
 
 ```javascript
-const user = {
-  username: 'JohnDoe',
-  profilePicture: 'https://randomuser.me/api/portraits/men/1.jpg',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  followers: 1500,
-  following: 300
+export const profileData = {
+    username: 'huzaifa_ansari222',
+    fullname: 'Md Huzaifa Ansari',
+    profilePicture: 'https://avatars.githubusercontent.com/u/96833478?v=4',
+    bio:'Fullstack Web Developer | MERN Stack | JAVA,OOPs | DSA | Git',
+    followers: 1500,
+    following: 300,
+    post: 21,
+    isOnline: true,
+    isFollowed :false,
+    about: 'I am Md Huzaifa Ansari, a Full-Stack MERN Developer with a Bachelor degree in Information Technology from the MAKAUT Board.',
 };
 
----
+
