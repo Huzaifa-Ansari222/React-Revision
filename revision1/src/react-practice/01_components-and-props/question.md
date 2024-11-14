@@ -23,21 +23,8 @@ Inside `ProfileCard`, the following elements should be displayed:
 - The `bio` as a short description below the profile picture.
 - The number of followers and following in a nice format (e.g., "Followers: 500", "Following: 180").
 
-### 2. Create the `App` Component
 
-In the `App` component, create an object representing a user's data:
-```javascript
-const user = {
-  username: 'JohnDoe',
-  profilePicture: 'https://randomuser.me/api/portraits/men/1.jpg',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  followers: 1500,
-  following: 300
-};
-
----
-
-### 3. Additional Features (Optional)
+### 2. Additional Features (Optional)
 
 #### a. Add an `isOnline` Prop to Indicate if the User is Online or Offline
 - Introduce an `isOnline` prop to represent whether the user is online or offline.
@@ -52,5 +39,17 @@ const user = {
 - Pass this state and the toggle function as props to the `ProfileCard` component.
 
 
+### 3. User Data Example
 
+Below is an example of the user data object that can be passed to the `ProfileCard` component:
 
+```javascript
+const user = {
+  username: 'JohnDoe',
+  profilePicture: 'https://randomuser.me/api/portraits/men/1.jpg',
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  followers: 1500,
+  following: 300
+};
+
+---
