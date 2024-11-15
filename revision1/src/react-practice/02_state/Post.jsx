@@ -1,9 +1,10 @@
 // import React from 'react'
-import {postData} from './postData';
+// import {postData} from './postData';
 import './post.css'
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
-const Post = () => {
+// eslint-disable-next-line react/prop-types
+const Post = ({ postedValue  }) => {
 
     const [like,setLike] = useState('🤍'); // Initial state: empty heart
 
@@ -36,19 +37,20 @@ return (
     <>
         <div className='post-container-feed'>
             <div className='post-main'>
-                <p className='post-content'> {postData[0].content} </p>
+                <p className='post-content'> {postedValue || 'No posts yet'} </p>
                 <div className='post-stats'>
                     <div className='like-delete'>
                         <div 
                             className='like-btn'
                             onClick={toggleLike}
-                        >{like}
+                        >
+                        {like}
                         </div>
                         <div className='delete-btn'>🗑️</div>
                     </div>
                     <div className='count-stats'>
-                        <p>Liked by {postData[0].likeCount} users</p>
-                        <p>Uploaded: {postData[0].date}</p>
+                        <p>Liked by  users</p>
+                        <p>Uploaded: </p>
                     </div>
                 </div>
             </div>
